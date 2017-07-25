@@ -72,12 +72,18 @@ body {
 /* Por debajo de 700px */(
 @media screen and (max-width: 700px){
 .cuadro{
-font-size:12px;
+font-size:10px;
+}
+img {
+    width:60%;
 }
 }
 /* Por debajo de 400px */(
 @media screen and (max-width: 400px){
 .cuadro{
-font-size:10px;
+font-size:8px;
+}
+img {
+    width:40%;
 }
 }
