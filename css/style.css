@@ -67,3 +67,15 @@ body {
 #iconos{
   color: green;
 }
+/* Por debajo de 700px */(
+@media screen and (max-width: 700px){
+.cuadro{
+font-size:12px;
+}
+}
+/* Por debajo de 400px */(
+@media screen and (max-width: 400px){
+.cuadro{
+font-size:10px;
+}
+}
